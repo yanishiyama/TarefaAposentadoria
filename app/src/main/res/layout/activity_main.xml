@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/yellow"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:padding="8dp"
+    android:id="@+id/spinnerSexo"
+    android:textColor="@color/blue"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite sua idade"
+        android:id="@+id/editTextIdade"
+        android:inputType="number"
+        android:textColor="@color/blue"
+        android:fontFamily="@font/HoshikoSatsuki"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Calcular"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/green"
+        android:id="@+id/buttonCalcular"
+        android:textSize="22dp"
+        android:fontFamily="@font/HoshikoSatsuki"
+        />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/blue"
+        android:textSize="22sp"
+        android:fontFamily="@font/HoshikoSatsuki"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="160dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/blue"
+        android:textSize="42sp"
+        android:text="@string/nomeAluno"
+        android:fontFamily="@font/HoshikoSatsuki"/>
+
+
+</LinearLayout>
