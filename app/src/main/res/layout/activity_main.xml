@@ -52,13 +52,13 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
+        android:fontFamily="@font/HoshikoSatsuki"
         android:gravity="center_horizontal"
-        android:textColor="@color/blue"
-        android:textSize="42sp"
         android:text="@string/nomeAluno"
-        android:fontFamily="@font/HoshikoSatsuki"/>
+        android:textColor="@color/blue"
+        android:textSize="42sp" />
 
 
 </LinearLayout>
